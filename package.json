@@ -1,0 +1,17 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "Discord bot for GameHub",
+  "main": "src/index.js",
+  "scripts": {},
+  "author": "awezmirza-dev",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.7"
+  },
+  "type": "module",
+  "devDependencies": {
+    "prettier": "^3.2.5"
+  }
+}
