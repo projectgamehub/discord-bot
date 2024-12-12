@@ -3,8 +3,8 @@ import {
     DISCORD_TOKEN,
     DISCORD_CLIENT_ID,
     TEST_SERVER_ID
-} from "./config/index.js";
-import commands from "./commands/utility/index.js";
+} from "../config/index.js";
+import commands from "../commands/utility/index.js";
 
 const rest = new REST().setToken(DISCORD_TOKEN);
 
