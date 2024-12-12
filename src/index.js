@@ -6,6 +6,7 @@ import setEvents from "./utils/setEvents.js";
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 
 client.commands = new Collection();
+client.cooldowns = new Collection();
 
 setCommands(client);
 setEvents(client);

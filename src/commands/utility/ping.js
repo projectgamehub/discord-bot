@@ -8,6 +8,6 @@ const execute = async (interaction) => {
     await interaction.reply("Pong!");
 };
 
-const ping = { data, execute };
+const ping = { data, execute, cooldown: 5 };
 
 export default ping;
